@@ -11,7 +11,8 @@ for i in range(clientes):
         print('usted no nacio')
     if edad < 18:
         print('usted es menor')
-        funciones.menor()
+        datos = funciones.menor()
+        #funciones.menor()
     elif edad < 65:
         print('usted es mayor')
         funciones.mayor()

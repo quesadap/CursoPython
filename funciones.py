@@ -1,16 +1,18 @@
 def menor():
     electronico = str(input('el jueguete es electronico?: '))
     if electronico != 'si':
-        print('el juguete no es electronico')
+        #print('el juguete no es electronico')
     else:
-        print('el juguete es electronico')
+        #print('el juguete es electronico')
     camina = str(input('el jueguete camina?: '))
     if camina != 'si':
-        print('el juguete no camina')
+        #print('el juguete no camina')
     else:
-        print('el juguete camina')
+        #print('el juguete camina')
     color = str(input('de que color es?: '))
-    print('el juguete es de color: '+color)
+    #print('el juguete es de color: '+color)
+
+    return [electronico, camina, color]
 
 def mayor():
     ropa = str(input('camisa o pantalon?'))

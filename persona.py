@@ -21,7 +21,7 @@ class Persona:
 
     def nombrar(self, mi_nombre):
         try:
-            mi_nombre = self.nombre
+            self.nombre = mi_nombre
             #return (mi_nombre)
             if (mi_nombre == ''):
                 print('ingrese un nombre')
@@ -31,5 +31,7 @@ class Persona:
         except TypeError:
             print('No puede estar vacio el nombre')
 
-mi_persona = Persona('pAblO')
+mi_persona = Persona('')
 print(mi_persona.nombrar('test'))
+#mi_persona.nombre = 'pablo'
+#print(mi_persona.nombre.capitalize())
